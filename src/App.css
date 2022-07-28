@@ -1,0 +1,41 @@
+body{
+  background: rgb(39, 114, 133);
+  margin:0px;
+}
+.app{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.you{
+background-color: aliceblue;
+  padding:30px;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+.name{
+  text-align: center;
+  color: gray;
+}
+.dollar{
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+padding-bottom: 10px;
+}
+.month{
+  font-size: small;
+}
+.button{
+  background-color: aqua;
+  padding: 10px;
+  margin-left: 70px;
+  border-radius: 50px;
+font-weight: bold;
+font-size: larger;
+}
+.you:hover,.button:hover{
+  transform: scale(0.98);
+}
